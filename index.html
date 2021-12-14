@@ -92,7 +92,7 @@
                         <option value="WY">Wyoming</option>
                     </datalist>
                     <label for="zip">Your Zipcode</label>
-                    <input type="number" id="zip" name="zip">
+                    <input type="text" id="zip" name="zip" pattern="[0-9]{5}" title="5-Digit US ZIP Code">
                 </div>
             </fieldset>
 
@@ -115,6 +115,7 @@
                     <input type="radio" id="new-zealand" name="location" value="New Zealand"> 
                     <label for="new-zealand">New Zealand</label>
                 </div>
+                <p></p>
                 <div>
                     <label for="color">Favorite Color</label>
                     <input type="color" id="color" name="color">
